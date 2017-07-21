@@ -1,0 +1,5 @@
+---
+# defaults file for ansible-role-server-firewall
+
+firewall_init_d_folder: /etc/init.d
+firewall_init_d_filename: firewall

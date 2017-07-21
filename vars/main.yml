@@ -1,0 +1,4 @@
+---
+# vars file for ansible-role-server-firewall
+
+firewall_init_d_file: "{{firewall_init_d_folder }}/{{ firewall_init_d_filename }}

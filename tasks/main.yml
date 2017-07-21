@@ -1,0 +1,6 @@
+---
+# tasks file for ansible-role-server-firewall
+
+- name: create firewall basic init script
+  template: src="firewall.j2" dest="{{ firewall_init_d_file }}" owner=root group=root mode=0644 force=yes
+  notify: reload firewall
