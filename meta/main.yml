@@ -1,5 +1,6 @@
 ---
 galaxy_info:
+  role_name: server-firewall
   author: Kálmán Szalai - KAMI
   description: Firewall settings
   license: GPLv3
